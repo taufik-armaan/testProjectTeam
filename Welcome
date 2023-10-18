@@ -1,0 +1,22 @@
+
+public class ArrayConcept1 {
+	
+	public static void main(String []args) {
+		
+		int [] arr1 = {1,2,3,4,5,6,7,8,9,10,122};
+		// print all the values divided by 2 and reminder is 2 
+		
+		for(int f=0; f<arr1.length; f++) {  // print all the values of array
+			
+			if(arr1[f] %2 == 0) {      // in java in we are comparing 2 numbers then use ==
+				System.out.println(arr1[f]);
+		}
+			else {
+				System.out.println(arr1[f] + " is not multiple by 2");
+
+			}
+		
+	}
+
+}
+}
